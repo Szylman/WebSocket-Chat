@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="app">
+
+        <!-- HEADER -->
+        <header>
+        <h1>Chat.app</h1>
+        </header>
+
+        <!-- WELCOME FORM -->
+        <form id="welcome-form" class="welcome-form show">
+        <h2>Log in</h2>
+        <input 
+        class="text-input" 
+        type="text" 
+        id="username" 
+        placeholder="Type your name here">
+        <button class="btn" type="submit">Join</button>
+        </form>
+
+        <!-- MESSAGES SECTION -->
+        <section class="messages-section" id="messages-section">
+        <h2>Messages</h2>
+
+        <!-- messages list -->
+        <ul class="messages-section__list" id="messages-list">
+
+        </ul>
+
+        <!-- messages form -->
+        <form id="add-messages-form">
+            <input 
+            class="text-input" 
+            type="text" 
+            placeholder="Type your message here" 
+            id="message-content"
+            autocomplete="off"
+            >
+            <button class="btn" type="submit">Send</button>
+        </form>
+
+        </section>
+
+    </main>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
