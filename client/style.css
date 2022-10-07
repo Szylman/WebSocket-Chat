@@ -108,6 +108,11 @@ p {
     display: block;
 }
 
+.message--chat-box {
+    font-style: italic;
+}
+
+
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
